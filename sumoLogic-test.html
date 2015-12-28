@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sumo Logic Interview Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="styles/stylesheet.css" rel="stylesheet" type="text/javascript" />
+
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="scripts/pj_script.js"></script>
+    </head>
+    <body>
+        <div class="form">            
+            <div class="close"></div>            
+
+            <h1 class="Select an Employee">
+                Select an Employee
+            </h1>
+
+            <form>
+                <div class="form-control">
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        Send a welcome email to employee
+                    </label>
+                </div>
+
+                <div class="form-control team">
+                    <label>Select a Team in the Organization</label>
+                    <input class="dropdown large" type="text" value="Select Team..." />
+                    <ul class="list-box"></ul>
+                </div>
+
+                <div class="form-control employee">
+                    <label>Select an Employee</label>
+                    <input class="dropdown large" type="text" value="Select Employee..." />
+                    <ul class="list-box"></ul>
+                </div>
+
+                <div class="form-control text-right">
+                    <input class="btn" type="submit" value="Cancel" />
+                    <input class="btn primary" type="submit" value="OK" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

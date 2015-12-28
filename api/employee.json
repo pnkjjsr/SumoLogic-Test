@@ -1,0 +1,80 @@
+{
+    "company": {
+        "teams": [
+            {
+                "id": "0",
+                "team": "Engineering",
+                "employees": [
+                    {
+                        "id": "1",
+                        "name": "Lawane Fan"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Larry Rainer"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Rahul Malik"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Leah Shumwa"
+                    }
+                ]
+            },
+            {
+                "id": "1",
+                "team": "Executive",
+                "employees": [
+                    {
+                        "id": "1",
+                        "name": "Rohan Gupta"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Ronda Dean"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Robby Maharaj"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "team": "Finance",
+                "employees": [
+                    {
+                        "id": "1",
+                        "name": "Caleb Brow"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Carol Smithso"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Carl Sorense"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "team": "Sale",
+                "employees": [
+                    {
+                        "id": "1",
+                        "name": "Ankit Jai"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Anjali Maulingka"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+

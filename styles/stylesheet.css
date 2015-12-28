@@ -1,0 +1,95 @@
+body {
+    color: #333;
+    font-family: arial;
+    font-size: 15px;    
+}
+
+.form {
+    position: relative;    
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: #f8f8f8;
+    border: 1px solid #b9b9b9;    
+    box-shadow: 2px 2px 4px #ececec;
+}
+.form .close {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/img-close.gif) left top no-repeat;
+}
+.form h1 {
+    color: #36aff3;
+    font-weight: normal;    
+}
+.form .form-control {
+    position: relative;
+    margin-top: 25px;
+}
+.form .form-control.text-right  {
+    text-align: right;
+}
+
+.form .form-control label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+.form .form-control input[type=text] {    
+    padding: 12px 10px;    
+    border: 0 none;
+    outline: none;
+}
+.form .form-control input[type=text].dropdown {
+    background: #dddddd url(../images/bg-form-dropdown.gif) 165px center no-repeat;
+}
+.form .form-control input[type=text].large {
+    width: 480px;
+}
+.form .form-control input[type=text].large.dropdown {
+    background-position: 470px center;
+}
+
+.form .form-control input[type=submit].btn {
+    min-width: 100px;
+    padding: 10px 20px;
+    margin: 0 2px;
+    background-color: #dddedf;
+    border: 0 none;
+    color: #585951;
+    font-size: 17px;
+    cursor: pointer;
+}
+.form .form-control input[type=submit].btn.primary {
+    background-color: #28a0e4;
+    color: #fff;
+}
+.form .form-control .list-box {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    min-height: 70px;
+    max-height: 100px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.form .form-control .list-box li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+}
+.form .form-control .list-box li:hover {background-color: #f5f5f5;}
